@@ -1,0 +1,151 @@
+*{
+    padding: o;
+    margin: 0;
+}
+.proj{
+    padding-right: 30px;
+}
+body{
+    background-image: url(images/bg-pattern-top-desktop.svg);
+}
+h1{
+    font-size: 3rem;
+    color: purple;
+    padding-bottom: 10px;
+}
+p{
+    font-size: 1rem;
+    color: purple;
+}
+.top{
+    padding-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.star{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    margin-top: 10%;
+}
+
+.star ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.star li {
+    clear: both; /* Clear float to prevent overlapping */
+    margin-bottom: 10px; /* Optional: Add space between items */
+}
+
+.star img {
+    float: left; /* Float images to the left */
+    width: 20px; /* Adjust image size */
+    height: 20px; /* Adjust image size */
+}
+
+.star p {
+    margin-right: 25px; /* Adjust spacing between stars and text */
+    line-height: 20px;
+    display: inline-block; 
+  
+}
+
+
+.rv{
+    margin: 1px;
+    display: inline block;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+.gr{
+    margin: 1px;
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.bt{
+    margin: 1px;
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.container{
+    width: 100%;
+    overflow-x: auto;
+    margin: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.list{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+.list li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.list p{
+    color: white;
+}
+.smith{
+    margin: 1px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+.irene{
+    margin: 1px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+.anne{
+    margin: 1px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+.pic img,
+.pic span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pic img {
+    width: 50px; /* Adjust image size as needed */
+    height: 50px; /* Adjust image size as needed */
+    margin-right: 10px; /* Optional: Add space between image and text */
+}
+.profile {
+    float: left; /* Position the image to the left */
+    width: 50px; /* Adjust image size */
+    height: 50px; /* Adjust image size */
+    border-radius: 50%; /* Display the image as a circle */
+    margin-right: 10px;
+}
+.smith p,
+.irene p,
+.anne p {
+    margin-left: 70px; /* Adjust the left margin for text */
+}
+
